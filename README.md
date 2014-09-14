@@ -88,11 +88,11 @@ DBExecutor
  
 **2.Sql用于DBExecutor 执行的Sql**
 
-  与sql文本语句是有差别的。
-  区别在于Sql 里包含  
-  sql.getTable();//操作的表
-  sql.getSqlText();//可以带有?占位符的sql语句
-  sql.getBindValues();//?占位符对应的值。
+  与sql文本语句是有差别的。 
+  区别在于Sql 里包含    
+  sql.getTable();//操作的表  
+  sql.getSqlText();//可以带有?占位符的sql语句  
+  sql.getBindValues();//?占位符对应的值。  
 
   sql.setCheckTableExit(checkTableExit);//设置执行sql时检查表是否存在，默认为true如果
   检查到表不存在自动创建，设置为false 不做检查

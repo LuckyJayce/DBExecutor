@@ -142,9 +142,7 @@ DBExecutor
 License
 =======
 
-    Copyright 2012 Jake Wharton
-    Copyright 2011 Patrik Åkerfeldt
-    Copyright 2011 Francisco Figueiredo Jr.
+    Copyright 2014 shizhefei（LuckyJayce）
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

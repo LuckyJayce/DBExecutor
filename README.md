@@ -136,6 +136,8 @@ DBExecutor
       // 自拼接sql语句
       sql = SqlFactory.makeSql(Person.class, "select * from Person where age = ?", new Object[] { 11 });
   
+  **混淆配置**  
+  -keepclasseswithmembers class * { @com.shizhefei.db.annotations.Id <fields>;  *;}  
   更多详细信息请查看项目文档里面的内容
 
 

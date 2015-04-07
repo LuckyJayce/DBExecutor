@@ -54,7 +54,7 @@ public class TableFactory {
 					continue;
 				String columnName = ColumnUtils.getColumnName(field);
 				// 如果已经有相同的字段，也就是子类和父类重复的情况，优先选择子类的字段
-				if (columns.containsKey(columns.containsKey(columnName)))
+				if (columns.containsKey(columnName))	
 					continue;
 				// 创建字段
 				Column column = new Column(field, columnName);

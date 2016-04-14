@@ -140,6 +140,10 @@ DBExecutor
        -keepclasseswithmembers class * { @com.shizhefei.db.annotations.Id \<fields\>;  *;}  
   更多详细信息请查看项目文档里面的内容
 
+# 联系方式和问题建议
+
+* 微博:http://weibo.com/u/3181073384
+* QQ 群: 开源项目使用交流，问题解答: 549284336（开源盛世） 
 
 License
 =======
